@@ -1,4 +1,4 @@
-# org-nested
+# org-nested-links
 
 This helper allows you to create links within Org-files that jump to nested sections without the use of header-specific ID properties.
 
@@ -47,7 +47,7 @@ The link will **not** be visible on any HTML-exports.
 Save this file to a directory upon your load-path, and then require it after you've loaded `org-mode`:
 
 ```lisp
-(require 'org-nested)
+(require 'org-nested-links)
 
 ```
 
